@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Deeptirtha/project3.git"
+    "url": "git+https://github.com/singhshreya425/project-3/branches"
   },
-  "author": "",
+  "author": "Shreya Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Deeptirtha/project3/issues"
+    "url": "https://github.com/singhshreya425/project-3/branches"
   },
-  "homepage": "https://github.com/Deeptirtha/project3#readme",
+  "homepage": "https://github.com/singhshreya425/project-3/branches",
   "dependencies": {
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",

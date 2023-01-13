@@ -6,7 +6,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://DeeptirthaMukherjee:QYKI3k8QSKC4I7FZ@cluster1.khatgm1.mongodb.net/project3-db?retryWrites=true&w=majority",
+    "mongodb+srv://singhshreya425:shreyasingh1234@cluster0.yxxvuvg.mongodb.net/shreya526",
     { UseNewUrlParser: true }
   )
   .then(() => console.log("Mongo-Db is connected"))
@@ -14,6 +14,6 @@ mongoose
 
 app.use("/", route);
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log("listening at " + (process.env.PORT || 3000));
+app.listen(process.env.PORT || 4000, function () {
+  console.log("listening at " + (process.env.PORT || 4000));
 });
